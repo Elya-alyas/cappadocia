@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap');
+@import url('https://db.onlinewebfonts.com/c/188d1fa8197b9332b368f98b00285a05?family=Balqis');
+
+@font-face {
+    font-family: balqis;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Balqis'), url(https://fonts.cdnfonts.com/s/18521/Balqis.woff) format('woff')
+}
+
+
+
+
+
+
+header {
+    background: url('../images/back\ fone.jpg') center / cover no-repeat;
+    height: 100vh;
+    position: relative;
+
+}
+
+.row__align-items-start {
+    width: 85%;
+    display: flex;
+}
+
+.col {
+    margin-top: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+.col-4 {
+    margin-top: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 50%;
+}
+
+.col-4 img {
+    height: 26px;
+    width: 26px;
+}
+
+.col-4 a {
+    color: #000000;
+}
+
+
+/*  */
+.name {
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+.name h1 {
+    font-family: 'Balqis';
+    font-size: 200px;
+    font-weight: 200;
+    line-height: 134px;
+    color: #000000;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+
+
+}
+
+.name h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 100;
+
+    position: absolute;
+    left: 52%;
+    top: 30%;
+}
+
+.roof {
+    margin-top: 8%;
+    width: 100%;
+}
+
+.roof img {
+    height: 125px;
+    width: 330px;
+    margin-left: 250px;
+}
+
+.roof h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    position: absolute;
+    left: 29%;
+    top: 130%;
+}
+
+.main_sect {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+}
+
+
+
+.text_block1 {
+    width: 40%;
+}
+
+.text_col {
+    list-style: none;
+    text-align: left;
+}
+
+.text1 {
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 5%;
+}
+
+#tttt {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.block3 {
+    width: 100%;
+
+}
+
+.diferent_sect {
+    display: flex;
+
+    position: relative;
+}
+
+.name_trip img {
+    height: 125px;
+    width: 330px;
+    margin-left: 250px;
+}
+
+.name_trip h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    position: absolute;
+    left: 37%;
+    top: 13%;
+
+}
+
+.text_col2 {
+    list-style: none;
+    text-align: left;
+    width: 40%;
+    margin-left: 230px;
+
+}
+
+.text_col2 button {
+    height: 45px;
+    width: 260px;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    padding-left: 60px;
+}
+
+.text2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 2%;
+
+
+}
+
+#llll {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.carousel-inner {
+    height: 680px;
+    width: 740px;
+
+}
+
+.name_trip button {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    border: 1px solid grey;
+    padding-top: 2%;
+    margin-top: 15%;
+}
+
+/*  */
+.dif_block1 {
+    width: 100%;
+    margin-top: 5%;
+    position: relative;
+}
+
+.roof1 h3 {
+    font-family: 'Balqis';
+    font-style: unset;
+    font-size: 96px;
+    font-weight: 100;
+    text-align: left;
+    height: 103px;
+    width: 210px;
+    color: gold;
+    margin-left: 18%;
+}
+
+.roof1 h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 26%;
+    position: absolute;
+    top: 90%;
+}
+
+.block5 {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.osnovnoi {
+    display: flex;
+}
+
+.photo_hotel {
+    width: 50%;
+}
+
+.photo_hotel img {
+    height: 600px;
+    width: 400px;
+    margin-left: 35%;
+}
+
+.hotel_words {
+    width: 39%;
+}
+
+.hotel_words p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.hotel_w_photo img {
+    height: 150px;
+    width: 280px;
+    border-radius: 0px;
+    margin-top: 2%;
+
+}
+
+#w_photo1 {
+    margin-top: 2%;
+}
+
+#w_photo2 {
+    margin-top: 2%;
+}
+
+/*  */
+.dif_block2 {
+    width: 100%;
+    margin-top: 5%;
+    position: relative;
+}
+
+.roof2 h3 {
+    font-family: 'Balqis';
+    font-style: unset;
+    font-size: 96px;
+    font-weight: 100;
+    text-align: left;
+    height: 103px;
+    width: 210px;
+    color: #E2AB3F;
+    margin-left: 18%;
+}
+
+.roof2 h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 26%;
+    position: absolute;
+    top: 90%;
+}
+
+.block7 {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.dif_block3 {
+    display: flex;
+}
+
+.block_price1 {
+    width: 32%;
+    margin-left: 270px;
+}
+
+.block_price1 h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.block_price1 p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.block_price2 {
+    width: 32%;
+    margin-left: 2%;
+
+}
+
+.roof3 {
+    display: flex;
+    position: relative;
+}
+
+.block_price2 h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.block_price2 p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+}
+
+#ball1 {
+    position: absolute;
+    top: 2%;
+    left: 69%;
+}
+
+#ball2 {
+    position: absolute;
+    top: 36%;
+    left: 72%;
+}
+
+#ball3 {
+    position: absolute;
+    bottom: 32%;
+    left: 78%;
+}
+
+.block8 {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.one {
+    width: 50%;
+}
+
+.roof4 {
+    margin-left: 50%;
+}
+
+.roof4 h3 {
+    font-family: 'Balqis';
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 69px;
+    text-align: left;
+    color: #E2AB3F;
+
+}
+
+.roof4 p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 28px;
+
+    text-align: left;
+
+}
+
+.roof44 {
+    margin-left: 59%;
+}
+
+.roof44 h3 {
+    font-family: 'Balqis';
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 69px;
+    text-align: left;
+    color: #E2AB3F;
+
+}
+
+.roof44 p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 28px;
+
+    text-align: left;
+}
+
+.roof444 {
+
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 15%;
+}
+
+.roof444 h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.roof444 input {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #E2AB3F;
+    color: #000000;
+
+    height: 50px;
+    width: 383px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 5%;
+    color: #000000;
+}
+
+
+
+.roof444 button {
+    height: 45px;
+    width: 220px;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 20px;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 19%;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #E2AB3F;
+
+}
+
+.third {
+    display: flex;
+}
+
+.two {
+    width: 50%;
+}
+
+.two img {
+    height: 600px;
+    width: 450px;
+}
+
+footer {
+    background: url('../images/back\ fone.jpg') center / cover no-repeat;
+    height: 100vh;
+    margin-top: 10%;
+    position: relative;
+}
+
+.name_foot h1 {
+    font-family: 'Balqis';
+    font-size: 86px;
+    font-weight: 400;
+    line-height: 115px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+.ball_fone {
+    height: 527px;
+    width: 356px;
+
+    position: absolute;
+    top: 17%;
+    left: 17%;
+}
+
+.ball_fone h2 {
+    font-family: 'Balqis';
+    font-size: 86px;
+    font-weight: 400;
+    line-height: 115px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E2AB3F;
+    position: absolute;
+    top: 8%;
+    left: 15%;
+}
+
+#phone_icon {
+    position: absolute;
+    top: 35%;
+    left: 18%;
+}
+
+#letter {
+    position: absolute;
+    top: 45%;
+    left: 14%;
+}
+
+#youtube {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+}
+
+#facebook {
+    position: absolute;
+    top: 55%;
+    left: 45%;
+}
+
+#instagram {
+    position: absolute;
+    top: 55%;
+    left: 60%;
+}
+
+#number {
+    position: absolute;
+    top: 36%;
+    left: 32%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+#mail {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 27%;
+}
